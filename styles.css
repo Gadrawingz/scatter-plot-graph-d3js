@@ -1,0 +1,17 @@
+/* Main styles */
+body {
+    font: 10px sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background: none;
+    position: relative;
+}
+
+.graph {
+    display: block;
+    margin: auto;
+    background: rgb(240, 221, 185);
+}
