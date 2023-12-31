@@ -1,4 +1,8 @@
 /* Main styles */
+* {
+    color: #FFF;
+}
+
 body {
     font: 10px sans-serif;
     width: 100%;
@@ -13,5 +17,36 @@ body {
 .graph {
     display: block;
     margin: auto;
-    background: rgb(240, 221, 185);
+    background: rgb(0, 0, 0);
+}
+
+.axis path, 
+.axis line {
+    fill: pink;
+    stroke: 4px;
+    shape-rendering: crispEdges
+}
+
+.dot {
+    stroke: #d0c615;
+    opacity: 1;
+}
+
+.chat-title {
+    color: #FFF;
+    margin-bottom: 12px;
+}
+
+/* Styling tooltip */
+.tooltip {
+    position: absolute;
+    padding: 14px;
+    font-size: 1.6em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: blue;
+    color: white;
+    font-weight: 800;
+    border-radius: 8px;
+    border-bottom: 4px solid #000;
+    pointer-events: none;
 }
